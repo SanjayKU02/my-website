@@ -274,23 +274,76 @@ h4 {
     margin-top: 10px;
 }
 
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .enquiry-btn {
     background-color: #007bff;
     color: white;
-    padding: 0.5rem 2rem;         /* Updated padding */
+    padding: 0.15rem 1.1rem;       /* Reduced padding by ~40% */
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 10px;
     text-decoration: none;
     display: inline-block;
     transition: background-color 0.3s;
-    min-width: 120px;             /* Added min-width */
-    font-size: 1rem;              /* Added font-size */
-    text-align: center;           /* Added for better alignment */
+    min-width: 66px;               /* Reduced min-width by ~40% from 110px */
+    font-size: 1.05rem;            /* Kept font size */
+    text-align: center;
+    width: auto;                   /* Added to ensure button shrinks with content */
+    height: auto;                  /* Added to ensure button height adjusts properly */
 }
+
 .enquiry-btn:hover {
     background-color: #0056b3;
+}
+
+button.enquiry-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 0.15rem 1.1rem;       /* Reduced padding by ~40% */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+    min-width: 66px;               /* Reduced min-width by ~40% from 110px */
+    font-size: 1.05rem;            /* Kept font size */
+    text-align: center;
+    width: auto;                   /* Added to ensure button shrinks with content */
+    height: auto;                  /* Added to ensure button height adjusts properly */
+}
+
+button.enquiry-btn:hover {
+    background-color: #0056b3;
+}
+
+.product-contact a {
+    color: #007BFF;
+    text-decoration: none;
+    padding: 0.15rem 1.1rem;       /* Reduced padding by ~40% */
+    font-size: 1.05rem;            /* Kept font size */
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    min-width: 66px;               /* Reduced min-width by ~40% from 110px */
+    width: auto;                   /* Added to ensure button shrinks with content */
+    height: auto;                  /* Added to ensure button height adjusts properly */
+}
+
+.product-contact a:hover {
+    background-color: #0056b3;
+    transform: translateY(-1px);
+    text-decoration: none;
 }
 
 /* Services and Careers */
